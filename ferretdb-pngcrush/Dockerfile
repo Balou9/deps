@@ -1,4 +1,4 @@
-FROM node:22.17.0-alpine
+FROM alpine:3.18
 
 RUN apk update && \
     apk add --no-cache pngcrush \
